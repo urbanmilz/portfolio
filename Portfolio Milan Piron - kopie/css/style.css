@@ -1,0 +1,279 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          
+}
+
+body {
+          background-color: #1f242d;
+}
+
+a {
+          text-decoration: none;
+          color: white;
+}
+
+.navbar {
+          position: absolute;
+          display: flex;
+          top: 0;
+          width: 100%;
+          padding: 20px 9%;
+          background: transparent;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          z-index: 100;
+          border: 2px solid rgb(1, 255, 158);
+          border-style: none none solid none;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #1a1e26;   
+}
+
+
+.fa-linkedin{
+          font-size: 4vh;
+          color: RGB(10, 102, 194);
+}
+
+.social-media{
+          font-size: 4vh;
+          justify-content: space-betweeN;
+          width: 100%;
+          padding-inline-start: 2vh;
+          columns: 2.5vh;
+          margin-top: 5VH;
+          
+}
+
+.navbar .logo {
+          font-size: 30px;
+          font-weight: 700;
+}
+
+.navbar ul {
+          display: flex;
+}
+
+.navbar ul li {
+          margin-left: 35px;
+          list-style: none;
+}
+
+.navbar ul li a {
+          font-size: 20px;
+          font-weight: 500;
+}
+
+h1{
+     margin-top: 15px;
+     justify-content: center;
+     font-family: "Oxanium",Arial, Helvetica, sans-serif;
+     color: rgb(1, 255, 158)
+}
+.sidebar{
+          position: absolute;
+          left: 100px;
+          padding: 40px;
+          height: 70VH;
+          border: rgb(1, 255, 158) solid 2px;
+          border-radius: 2vh;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #1a1e26;
+         
+}
+
+#programmeur {
+          margin-left: 10px;
+          margin-top: 20px;
+          font-family: "Oxanium",Arial, Helvetica, sans-serif;
+         
+}
+
+.fa-beat-fade {
+          
+          padding: 20px 0;
+          display: flex;
+          justify-content: center;
+          left: auto;
+          margin-left: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 10PX;
+          justify-content: center;
+          
+}
+
+.midden {
+        
+          display: block;
+          width: 52%;
+          padding: 5% 3%;
+          margin-left: 407px;
+          margin-top: 70px;
+          border: 3px solid rgb(1, 255, 158);
+          border-radius: 2vh;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #1a1e26;
+
+}
+
+
+.Junior{
+          color: rgb(1, 255, 158);
+          text-align: center;
+          font-family: "Oxanium",Arial, Helvetica, sans-serif;
+          font-size: 3fr;
+          text-align: center;
+          
+}
+
+#naam{
+     color: rgb(1, 255, 158);
+}
+
+#vakken{
+     color: rgb(1, 255, 158);
+}
+
+#L1{
+         
+          width: 25%;
+          height: 190px;
+          padding: 1% 1%;
+          margin-left: 105vh;
+          margin-top: 4%;
+          border: 3px solid rgb(1, 255, 158);
+          border-radius: 2vh;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #1a1e26;
+
+}
+
+#L2{
+          display: block;
+          width: 25%;
+          height: 190PX;
+         margin-top: -23VH;
+          padding: 1% 1%;
+          margin-left: 50vh;
+          border: 3px solid rgb(1, 255, 158);
+          border-radius: 2vh;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #1a1e26;
+
+}
+
+#Hierurl {
+     color:  rgb(1, 255, 158);
+}
+
+.rechts {
+
+          position: absolute;
+          margin-left: 159.3VH;
+          border: 3PX solid rgb(1, 255, 158);
+          border-radius: 2vh;
+          padding: 2% 5%;
+          margin-top: -575px;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #1a1e26;
+
+}
+
+#skills1{
+     margin-left: 15px;
+     
+}
+
+.skills {
+          width: 100%;
+          max-width: 600px;
+          padding: 0 10px;
+          margin-left: 3px;
+        
+}
+
+.skills-name{
+          font-size: 18px;
+          font-weight: 700;
+          color: white;
+          text-transform: uppercase;
+          margin: 20px 0;
+         
+}
+
+.skill-bar{
+          height: 14px;
+          background: #1a1e26;
+          border-radius: 3px;
+          
+}
+
+.skill-per {
+          height: 15px;
+          background-color:rgb(1, 255, 158);
+          border-radius: 3px;
+          position: relative;
+          color: #1a1e26;
+          animation: fillbars 2.5s 1;
+         
+}
+
+.skill-per::before{
+          content: attr(per);
+          position: absolute;
+          padding: 4px 6px;
+          background: white;
+          border-radius: 5px;
+          font-size: 12px;
+          top: -35PX;
+          right: 0;
+          transform: translate(100%);
+          margin-top: 30px;
+}
+
+.skill-per::after{
+          
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          background: rgb(0, 0, 0);
+          top: -20px;
+          right: 0;
+          transform: translateX(50%) rotate(45deg);
+          border-radius: 2px;
+          
+}
+
+@keyframes fillbars{
+          from{
+                    width: 0;
+          }
+          to{
+                    width: 100%;
+          }
+          
+}
+
+
+ .fa-youtube{
+     font-size: 50px;
+     margin-left: 150px;
+     margin-top: 20PX;
+     color: red;
+     
+ }
+
+ iframe {
+     position: absolute;
+     margin-left: 1325px;
+     margin-top: -193.5px;
+     border: 2PX solid rgb(1, 255, 158);
+     border-radius: 2vh;
+ }
